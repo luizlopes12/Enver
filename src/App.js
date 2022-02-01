@@ -1,4 +1,4 @@
-import {Container} from './styles/style'
+import {Container} from './styles/Container'
 import {GlobalStyle} from './styles/globalStyle'
 function App() {
   return (
