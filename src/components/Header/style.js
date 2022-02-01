@@ -40,4 +40,35 @@ export const Navbar = styled.nav`
             background-color: #f7f7f7;
         }
     }
+    @media screen and (max-width: 768px){
+        nav{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background-color: #000;
+            height: 100vh;
+            width: 100vw;
+            padding-top: 100px;
+        }
+        nav a{
+            padding: 20px;
+        }
+        nav button{
+            width: 120px;
+            padding: 10px 20px;
+            margin: 0 auto;
+        }
+        .menu-closed {
+            position: absolute;
+            top: 0;
+            left: 100vw;
+            transition: all .2s linear;
+        }
+        .menu-open {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: all .2s linear;
+        }
+    }
 `;
