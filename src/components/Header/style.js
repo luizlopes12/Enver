@@ -14,7 +14,7 @@ export const Navbar = styled.nav`
     a{
         text-decoration: none;
         color: rgba(255, 255, 255, .7);
-        margin: 0 10px;
+        margin: 0 20px;
         transition: all .2s ease-in-out;
         &:hover{
             color: #5454D4;
@@ -32,7 +32,7 @@ export const Navbar = styled.nav`
         cursor: pointer;
         font-size: 16px;
         font-weight: 400;
-        border: 1px solid #fff;
+        border: 1px solid rgba(255, 255, 255, .7);
         border-radius: 5px;
         transition: all .2s ease-in-out;
         &:hover{
