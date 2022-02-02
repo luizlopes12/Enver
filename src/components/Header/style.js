@@ -46,6 +46,7 @@ export const Navbar = styled.nav`
 
 
     @media screen and (max-width: 768px){
+        
         nav{
             position: absolute;
             top: 0;
@@ -80,8 +81,8 @@ export const Navbar = styled.nav`
         }
         .icon-close{
             position: absolute;
-            top: 5vh;
-            right: 5vw;
+            top: 7vh;
+            right: 8.5vw;
             display: initial;
         }
     }
