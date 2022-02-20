@@ -71,11 +71,16 @@ export const Navbar = styled.nav`
             }
         }
         .nav-closed{
-            transform: translateX(-200%);
+            position: fixed;
+            transform: translateX(100%);
+            visibility: hidden;
+            opacity: 0;
         }
         .nav-opened{
             transform: translateX(-10%);
             position: fixed;
+            visibility: visible;
+            opacity: 100%;
         }
         .icon-open{
             display: initial;
