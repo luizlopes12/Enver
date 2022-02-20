@@ -56,7 +56,7 @@ export const Navbar = styled.nav`
             width: 100vw;
             align-items: center;
             background-color: #000;
-            transition: all .2s linear;
+            transition: all .2s ease-in-out;
             ul{
                 display: flex;
                 flex-direction: column;
@@ -71,7 +71,7 @@ export const Navbar = styled.nav`
             }
         }
         .nav-closed{
-            transform: translateX(100%);
+            transform: translateX(-200%);
         }
         .nav-opened{
             transform: translateX(-10%);
