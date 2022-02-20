@@ -13,6 +13,10 @@ export const Navbar = styled.nav`
             font-size: 1.6em;
             margin: 0 5px;
             font-weight: 600;
+            cursor: pointer;
+        }
+        img{
+            cursor: pointer;
         }
     }
     .icon-open{
@@ -31,6 +35,10 @@ export const Navbar = styled.nav`
             a{
                 text-decoration: none;
                 color: rgba(255,255,255, .7);
+                transition: all .2s ease-in-out;
+                &:hover{
+                color: #fffffff3;
+                }
             }
         }
     }
@@ -42,11 +50,28 @@ export const Navbar = styled.nav`
         border-radius: 5px;
         padding: 10px 15px;
         margin: 0 0 0 10vw;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+        &:hover{
+            background-color: #fffffff3;
+            color: #19191B;
+        }
     }
 
 
     @media screen and (max-width: 768px){
-        
+        div, nav{
+        span{
+            font-size: 1.3em;
+            margin: 0 5px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        img{
+            height: 35px;
+            cursor: pointer;
+        }
+    }
         nav{
             position: absolute;
             top: 0;
@@ -84,9 +109,12 @@ export const Navbar = styled.nav`
         }
         .icon-open{
             display: initial;
+            position: fixed;
+            top: 7vh;
+            right: 8.5vw;
         }
         .icon-close{
-            position: absolute;
+            position: fixed;
             top: 7vh;
             right: 8.5vw;
             display: initial;
