@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/Enver/static/js/main.c30feebe.js",
+    "static/media/logo.svg": "/Enver/static/media/logo.dd0f4e277edb75a3e55190ed8dcd3487.svg",
+    "index.html": "/Enver/index.html",
+    "static/media/close-menu-icon.svg": "/Enver/static/media/close-menu-icon.741f0877cc43e6499f59a7a4c8352f82.svg",
+    "static/media/menu-icon.svg": "/Enver/static/media/menu-icon.bc2576383ea277d53b219518eccf66b9.svg",
+    "main.c30feebe.js.map": "/Enver/static/js/main.c30feebe.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c30feebe.js"
+  ]
+}
