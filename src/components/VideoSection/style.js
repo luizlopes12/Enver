@@ -34,6 +34,11 @@ export const Texts = styled.div`
         font-size: 1.25em;
         width: 50%;
     }
+    @media screen and (min-width: 1024px){
+    h2{
+        width: 40%;
+    }
+    }
     @media screen and (max-width: 1024px){
     h2{
         font-size: 40px;
@@ -75,6 +80,9 @@ export const Texts = styled.div`
 
 export const Video = styled.div`
     width: 100%;
+    background-image: url(${require('../../img/people.svg').default});
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -82,6 +90,11 @@ export const Video = styled.div`
         width: 100%;
         height: 85vh;
         border: none;
+    }
+    @media screen and (min-width: 1024px){
+    iframe{
+        height: 60vh;
+    }
     }
     @media screen and (max-width: 768px){
     iframe{
