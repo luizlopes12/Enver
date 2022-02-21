@@ -1,7 +1,6 @@
 import React from "react";
-import { Container } from "../../global/Container";
 import { Link } from "react-router-dom";
-import { Navbar } from './style'
+import { Container, Navbar } from './style'
 const Header = () => {
     const handleClick = () =>{
         let nav = document.querySelector('#nav')
