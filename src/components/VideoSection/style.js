@@ -79,10 +79,10 @@ export const Video = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
     iframe{
         width: 100%;
-        height: 90vh;
+        height: 85vh;
         border: none;
     }
     @media screen and (max-width: 768px){
