@@ -23,7 +23,7 @@ export const Texts = styled.div`
     align-items: center;
     justify-content: space-between;
     h2{
-        font-size: 3.5em;
+        font-size: 60px;
         line-height: 65px;
         width: 50%;
     }
@@ -31,13 +31,14 @@ export const Texts = styled.div`
         color: rgba(255,255,255, .7);
         font-weight: 300;
         line-height: 1.5em;
-        font-size: 1.3em;
-        width: 55%;
+        font-size: 1.25em;
+        width: 50%;
     }
     @media screen and (max-width: 1024px){
     h2{
-        font-size: 3em;
+        font-size: 40px;
         line-height: 45px;
+        width: 45%;
     }
     p{
         color: rgba(255,255,255, .7);
@@ -47,15 +48,13 @@ export const Texts = styled.div`
     @media screen and (max-width: 768px){
         display: block;
         h2{
-            width: 70%;
-            margin: auto;
+            width: 100%;
             font-size: 3em;
             line-height: 50px;
         }
         p{
             padding-top: 30px;
-            width: 70%;
-            margin: auto;
+            width: 100%;
             font-size: 1em;
         }
     }

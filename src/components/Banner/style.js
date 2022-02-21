@@ -31,8 +31,8 @@ export const Container = styled.section`
 export const Texts = styled.div`
     h1{
         margin: 50px 0 0 0;
-        font-size: 4.5em;
-        line-height: 65px;
+        font-size:  80px;
+        line-height: 70px;
     }
     p{
         margin-top: 30px;
