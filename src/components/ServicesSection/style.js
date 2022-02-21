@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 export const Container = styled.section`
-    padding: 50px 0;
+    padding: 50px 0 60px;
     width: 85%;
     color: #FFF;
     margin: auto;
@@ -35,3 +35,13 @@ export const Title = styled.h2`
     }
 `;
 
+export const Cards = styled.section`
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @media screen and (max-width: 768px){
+        margin-top: 50px;
+        flex-direction: column;
+    }
+`;
