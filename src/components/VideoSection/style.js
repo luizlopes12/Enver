@@ -34,11 +34,6 @@ export const Texts = styled.div`
         font-size: 1.25em;
         width: 50%;
     }
-    @media screen and (min-width: 1024px){
-    h2{
-        width: 40%;
-    }
-    }
     @media screen and (max-width: 1024px){
     h2{
         font-size: 40px;
@@ -88,13 +83,8 @@ export const Video = styled.div`
     margin-top: 20px;
     iframe{
         width: 100%;
-        height: 85vh;
+        height: 82vh;
         border: none;
-    }
-    @media screen and (min-width: 1024px){
-    iframe{
-        height: 60vh;
-    }
     }
     @media screen and (max-width: 768px){
     iframe{
