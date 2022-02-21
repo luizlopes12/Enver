@@ -41,7 +41,7 @@ export const Cards = styled.section`
     flex-wrap: wrap;
     justify-content: space-between;
     @media screen and (max-width: 768px){
-        margin-top: 50px;
+        margin-top: 80px;
         flex-direction: column;
     }
 `;
