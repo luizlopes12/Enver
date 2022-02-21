@@ -117,10 +117,14 @@ export const Navbar = styled.nav`
             opacity: 0;
         }
         .nav-opened{
-            transform: translateX(-5%);
+            transform: translateX(-2%);
+            @media screen and (min-width: 425px){
+                transform: translateX(-5%);
+            }
             position: fixed;
             visibility: visible;
             opacity: 100%;
+            width: 100%;
         }
         .icon-open{
             display: initial;

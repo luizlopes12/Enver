@@ -120,6 +120,6 @@ export const GuyImage = styled.img`
     }
     @media screen and (max-width: 425px){
         margin: 25px auto 80px;
-        transform: scale(1.15);
+        transform: scale(1.11);
     }
 `;
