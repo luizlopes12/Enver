@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "../../styles/Container";
+import { Container } from "../../global/Container";
 import {Navbar} from './style'
 const Header = () => {
     const handleClick = () =>{

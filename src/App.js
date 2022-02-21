@@ -1,4 +1,4 @@
-import {GlobalStyle} from './styles/globalStyle'
+import {GlobalStyle} from './global/globalStyle'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Header from './components/Header/Header'
 function App() {

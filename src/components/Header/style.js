@@ -10,12 +10,14 @@ export const Navbar = styled.nav`
         display: flex;
         align-items: center;
         span{
+            z-index: 9999;
             font-size: 1.6em;
             margin: 0 5px;
             font-weight: 600;
             cursor: pointer;
         }
         img{
+            z-index: 9999;
             cursor: pointer;
         }
     }
@@ -85,7 +87,7 @@ export const Navbar = styled.nav`
             ul{
                 display: flex;
                 flex-direction: column;
-                margin-top: 100px;
+                margin-top: 110px;
                 text-align: center;
                 li{
                     margin: 20px;
