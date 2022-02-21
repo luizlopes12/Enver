@@ -141,10 +141,10 @@ export const Navbar = styled.nav`
         right: 8.5vw;
     }
     .icon-close{
+        display: initial;
         position: absolute;
         top: 7vh;
         right: 8.5vw;
-        display: initial;
     }
     }
 
