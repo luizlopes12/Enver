@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.js": "/Enver/static/js/main.3dee7f1d.js",
+    "main.js": "/Enver/static/js/main.aaf133b3.js",
     "static/media/guy.png": "/Enver/static/media/guy.b68b0a9dd8f3d353637d.png",
     "static/media/logo.svg": "/Enver/static/media/logo.dd0f4e277edb75a3e55190ed8dcd3487.svg",
+    "static/media/motion-icon.svg": "/Enver/static/media/motion-icon.13b7874f4c9a2c57669df06de785044f.svg",
+    "static/media/video-icon.svg": "/Enver/static/media/video-icon.f4d34029a2ca4ddad6964cf1556813f3.svg",
+    "static/media/dev-icon.svg": "/Enver/static/media/dev-icon.75e85c474ab33870f6126e6daf413d63.svg",
+    "static/media/graphic-icon.svg": "/Enver/static/media/graphic-icon.14ec89cf5192048a0043b5a758aeac5e.svg",
+    "static/media/photo-icon.svg": "/Enver/static/media/photo-icon.f95d435cbd6117a3875cd00964be05ed.svg",
+    "static/media/ux-icon.svg": "/Enver/static/media/ux-icon.1c14b5c646b29257d4aa0f9eabc8588a.svg",
+    "static/media/add-icon.svg": "/Enver/static/media/add-icon.4dfbb1c980b1a938c38e86b3d2957115.svg",
     "index.html": "/Enver/index.html",
     "static/media/close-menu-icon.svg": "/Enver/static/media/close-menu-icon.741f0877cc43e6499f59a7a4c8352f82.svg",
     "static/media/arrow-icon.svg": "/Enver/static/media/arrow-icon.6391bd55efa2a9f6d2c49e3b455e2b02.svg",
     "static/media/menu-icon.svg": "/Enver/static/media/menu-icon.bc2576383ea277d53b219518eccf66b9.svg",
-    "main.3dee7f1d.js.map": "/Enver/static/js/main.3dee7f1d.js.map"
+    "static/media/play-icon.svg": "/Enver/static/media/play-icon.52c4471f1e3ad982902f175adb829125.svg",
+    "main.aaf133b3.js.map": "/Enver/static/js/main.aaf133b3.js.map"
   },
   "entrypoints": [
-    "static/js/main.3dee7f1d.js"
+    "static/js/main.aaf133b3.js"
   ]
 }
