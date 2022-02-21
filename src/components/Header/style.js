@@ -5,7 +5,7 @@ import styled from "styled-components";
 /////////////////////
 */
 export const Container = styled.section`
-    width: 80%;
+    width: 85%;
     margin: auto;
     color: #FFF;
     @media(max-width: 768px){

@@ -6,7 +6,7 @@ import styled from "styled-components";
 /////////////////////
 */
 export const Container = styled.section`
-    width: 80%;
+    width: 85%;
     position: relative;
     margin: auto;
     display: flex;
@@ -39,7 +39,7 @@ export const Texts = styled.div`
         color: rgba(255,255,255, .7);
         font-weight: 300;
         line-height: 1.5em;
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
     @media screen and (max-width: 1024px){
     h1{
@@ -137,10 +137,10 @@ export const Images = styled.div`
 */
 export const GuyImage = styled.img`
     transform: scale(1.1);
-    width: 45vw;
+    max-width: 45vw;
     right: 0px;
     @media screen and (max-width: 768px){
-        width: 90vw;
+        max-width: 90vw;
         margin: auto;
         transform: scale(1);
     }
