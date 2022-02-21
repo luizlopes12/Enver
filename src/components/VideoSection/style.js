@@ -4,7 +4,7 @@ export const Container = styled.section`
     width: 85%;
     position: relative;
     margin: auto;
-    margin-top: 100px;
+    margin: 100px 0;
     align-items: center;
     justify-content: space-between;
     color: #FFF;
