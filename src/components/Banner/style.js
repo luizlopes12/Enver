@@ -119,7 +119,7 @@ export const GuyImage = styled.img`
         transform: scale(1);
     }
     @media screen and (max-width: 425px){
-        margin: 20px auto 80px;
-        transform: scale(1);
+        margin: 25px auto 80px;
+        transform: scale(1.15);
     }
 `;

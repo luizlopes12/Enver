@@ -75,13 +75,13 @@ export const Navbar = styled.nav`
     @media screen and (max-width: 900px){
         div, nav{
         span{
-            font-size: 1.3em;
+            font-size: 1.2em;
             margin: 0 5px;
             font-weight: 600;
             cursor: pointer;
         }
         img{
-            height: 35px;
+            height: 30px;
             cursor: pointer;
         }
     }
