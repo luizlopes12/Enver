@@ -145,7 +145,7 @@ export const GuyImage = styled.img`
         transform: scale(1);
     }
     @media screen and (max-width: 425px){
-        margin: 40px auto 80px auto;
+        margin: 40px auto 40px auto;
         transform: scale(1.11);
     }
 `;

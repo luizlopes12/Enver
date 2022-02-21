@@ -2,6 +2,7 @@ import {GlobalStyle} from './global/globalStyle'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Header from './components/Header'
 import Banner from './components/Banner'
+import VideoSection from './components/VideoSection'
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
             <>
               <Header/>
               <Banner/>
+              <VideoSection/>
             </>
           }/>
         </Routes>
