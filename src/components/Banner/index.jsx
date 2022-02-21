@@ -16,7 +16,7 @@ const Banner = () => {
             Enver studio is a digital studio that 
             offers several services such as UI/UX Design to developers, 
             we will provide the best service for those of you who use our services.
-            </p>
+          </p>
             <Button>
               <Link to='/'>Our Services 
               <img src={require('../../img/arrow-icon.svg').default} alt="Arrow icon" />
