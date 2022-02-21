@@ -1,5 +1,9 @@
 import styled from "styled-components";
-
+/* 
+//////////////////////
+    Main container
+/////////////////////
+*/
 export const Container = styled.section`
     width: 80%;
     margin: auto;
@@ -11,7 +15,11 @@ export const Container = styled.section`
         width: 95%;
     }
 `;
-
+/* 
+//////////////////////
+    Navbar container
+/////////////////////
+*/
 export const Navbar = styled.nav`
     display: flex;
     justify-content: space-between;
@@ -31,14 +39,6 @@ export const Navbar = styled.nav`
             margin-right: 5px;
             cursor: pointer;
         }
-    }
-    .icon-open{
-        display: none;
-    }
-    .icon-close{
-        filter: invert(100);
-        height: 20px;
-        display: none;
     }
     ul{
         list-style: none;
@@ -70,10 +70,17 @@ export const Navbar = styled.nav`
             color: #19191B;
         }
     }
-
-
+    .icon-open{
+        display: none;
+    }
+    .icon-close{
+        filter: invert(100);
+        height: 20px;
+        display: none;
+    }
+    
     @media screen and (max-width: 900px){
-        div, nav{
+    div, nav{
         span{
             font-size: 1.2em;
             margin: 0 5px;
@@ -86,59 +93,59 @@ export const Navbar = styled.nav`
             cursor: pointer;
         }
     }
-        nav{
-            z-index: 999;
-            overflow: hidden;
-            position: absolute;
-            top: 0;
+    nav{
+        z-index: 999;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        align-items: center;
+        background-color: #000;
+        transition: all .2s ease-in-out;
+        ul{
             display: flex;
             flex-direction: column;
-            height: 100vh;
-            width: 100vw;
-            align-items: center;
-            background-color: #000;
-            transition: all .2s ease-in-out;
-            ul{
-                display: flex;
-                flex-direction: column;
-                margin-top: 110px;
-                text-align: center;
-                li{
-                    margin: 20px;
-                }
-            }
-            button{
-                margin: 10px 0;
+            margin-top: 110px;
+            text-align: center;
+            li{
+                margin: 20px;
             }
         }
-        .nav-closed{
-            position: fixed;
-            transform: translateX(100%);
-            visibility: hidden;
-            opacity: 0;
+        button{
+            margin: 10px 0;
         }
-        .nav-opened{
-            transform: translateX(-2%);
-            @media screen and (min-width: 425px){
-                transform: translateX(-5%);
-            }
-            position: fixed;
-            visibility: visible;
-            opacity: 100%;
-            width: 100%;
+    }
+    .nav-closed{
+        position: fixed;
+        transform: translateX(100%);
+        visibility: hidden;
+        opacity: 0;
+    }
+    .nav-opened{
+        transform: translateX(-2%);
+        position: fixed;
+        visibility: visible;
+        opacity: 100%;
+        width: 100%;
+        @media screen and (min-width: 425px){
+            transform: translateX(-5%);
         }
-        .icon-open{
-            display: initial;
-            position: absolute;
-            top: 7vh;
-            right: 8.5vw;
-        }
-        .icon-close{
-            position: absolute;
-            top: 7vh;
-            right: 8.5vw;
-            display: initial;
-        }
+    }
+    .icon-open{
+        display: initial;
+        position: absolute;
+        top: 7vh;
+        right: 8.5vw;
+    }
+    .icon-close{
+        position: absolute;
+        top: 7vh;
+        right: 8.5vw;
+        display: initial;
+    }
     }
 
 `;

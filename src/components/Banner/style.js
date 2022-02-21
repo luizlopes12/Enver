@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+/* 
+//////////////////////
+    Main container
+/////////////////////
+*/
 export const Container = styled.section`
     width: 80%;
     position: relative;
@@ -18,7 +23,11 @@ export const Container = styled.section`
         width: 90%;
     }
 `;
-
+/* 
+//////////////////////
+    Texts container
+/////////////////////
+*/
 export const Texts = styled.div`
     h1{
         margin: 50px 0 0 0;
@@ -68,16 +77,11 @@ export const Texts = styled.div`
         }
     }
 `;
-
-export const Images = styled.div`
-    width: 50%;
-    @media screen and (max-width: 768px){
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-`;
-
+/* 
+//////////////////////
+    Our services button
+/////////////////////
+*/
 export const Button = styled.button`
     background-color: #5454D4;
     border: none;
@@ -109,6 +113,24 @@ export const Button = styled.button`
         
     }
 `;
+/* 
+//////////////////////
+    Image container
+/////////////////////
+*/
+export const Images = styled.div`
+    width: 50%;
+    @media screen and (max-width: 768px){
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+`;
+/* 
+//////////////////////
+    Guy image
+/////////////////////
+*/
 export const GuyImage = styled.img`
     transform: scale(1.1);
     width: 45vw;
