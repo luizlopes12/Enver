@@ -5,7 +5,7 @@ export const Navbar = styled.nav`
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    margin: 25px;
+    margin: 25px 0 0 0;
     div, nav{
         display: flex;
         align-items: center;
@@ -17,6 +17,7 @@ export const Navbar = styled.nav`
             cursor: pointer;
         }
         img{
+            margin-right: 5px;
             z-index: 9999;
             cursor: pointer;
         }

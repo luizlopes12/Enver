@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "../../global/Container";
-import {Navbar} from './style'
+import { Link } from "react-router-dom";
+import { Navbar } from './style'
 const Header = () => {
     const handleClick = () =>{
         let nav = document.querySelector('#nav')
@@ -20,10 +21,10 @@ const Header = () => {
                 <nav id="nav" className="nav-closed">
                     <i><img src={require('../../img/close-menu-icon.svg').default} onClick={handleClick}  className='icon-close' alt="Menu icon" /></i>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Our Project</a></li>
-                        <li><a href="#">About us</a></li>
+                        <li><Link to='/'>Home</Link></li>
+                        <li><Link to='/'>Services</Link></li>
+                        <li><Link to='/'>Our Project</Link></li>
+                        <li><Link to='/'>About us</Link></li>
                     </ul>
                     <button>Contact us</button>
                 </nav>
