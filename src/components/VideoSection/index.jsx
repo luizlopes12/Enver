@@ -14,7 +14,7 @@ const VideoSection = () => {
                 </p>
           </Texts>
           <Video>
-            <iframe src="https://www.youtube.com/embed/uLkkNcAk6tE" title="YouTube video player" frameborder="0" allowFullScreen></iframe>
+            <iframe src="https://www.youtube.com/embed/uLkkNcAk6tE" title="YouTube video player" frameBorder="0" allowFullScreen></iframe>
           </Video>
       </Container>
   )

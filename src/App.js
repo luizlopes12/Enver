@@ -3,6 +3,8 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Header from './components/Header'
 import Banner from './components/Banner'
 import VideoSection from './components/VideoSection'
+import Services from './components/ServicesSection'
+
 function App() {
   return (
     <>
@@ -14,6 +16,7 @@ function App() {
               <Header/>
               <Banner/>
               <VideoSection/>
+              <Services/>
             </>
           }/>
         </Routes>
