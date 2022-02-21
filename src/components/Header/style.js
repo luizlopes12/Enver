@@ -17,12 +17,12 @@ export const Navbar = styled.nav`
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    margin: 25px 0 0 0;
+    margin: 25px 25px 0 0;
     div, nav{
         display: flex;
+        width: 100%;
         align-items: center;
         span{
-            z-index: 9999;
             font-size: 1.6em;
             margin: 0 5px;
             font-weight: 600;
@@ -30,7 +30,6 @@ export const Navbar = styled.nav`
         }
         img{
             margin-right: 5px;
-            z-index: 9999;
             cursor: pointer;
         }
     }
@@ -74,7 +73,7 @@ export const Navbar = styled.nav`
     }
 
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 900px){
         div, nav{
         span{
             font-size: 1.3em;
@@ -88,6 +87,8 @@ export const Navbar = styled.nav`
         }
     }
         nav{
+            z-index: 999;
+            overflow: hidden;
             position: absolute;
             top: 0;
             display: flex;
@@ -117,19 +118,19 @@ export const Navbar = styled.nav`
             opacity: 0;
         }
         .nav-opened{
-            transform: translateX(-10%);
+            transform: translateX(-5%);
             position: fixed;
             visibility: visible;
             opacity: 100%;
         }
         .icon-open{
             display: initial;
-            position: fixed;
+            position: absolute;
             top: 7vh;
             right: 8.5vw;
         }
         .icon-close{
-            position: fixed;
+            position: absolute;
             top: 7vh;
             right: 8.5vw;
             display: initial;

@@ -24,7 +24,7 @@ const Banner = () => {
             </Button>
         </Texts>
         <Images>
-          <GuyImage src={require('../../img/guy.svg').default} alt="Guy Image" />
+          <GuyImage src={require('../../img/guy.png')} alt="Guy Image" />
         </Images>
     </Container>
   )
