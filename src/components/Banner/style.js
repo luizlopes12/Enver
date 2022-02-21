@@ -110,7 +110,11 @@ export const Button = styled.button`
     }
     @media screen and (max-width: 425px){
         margin-top: 20px;
-        
+        a{
+            img{
+            height: 10px;
+            }
+        }
     }
 `;
 /* 
