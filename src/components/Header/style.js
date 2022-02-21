@@ -81,6 +81,7 @@ export const Navbar = styled.nav`
             cursor: pointer;
         }
         img{
+            margin-left: 8px;
             height: 30px;
             cursor: pointer;
         }
