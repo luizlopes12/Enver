@@ -3,8 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.section`
     width: 85%;
     position: relative;
-    margin: auto;
-    margin: 100px 0;
+    margin: 100px auto;
     align-items: center;
     justify-content: space-between;
     color: #FFF;
