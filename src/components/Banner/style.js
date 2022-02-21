@@ -111,7 +111,7 @@ export const Button = styled.button`
 `;
 export const GuyImage = styled.img`
     transform: scale(1.1);
-    width: 50vw;
+    width: 40vw;
     right: 0px;
     @media screen and (max-width: 768px){
         width: 90vw;

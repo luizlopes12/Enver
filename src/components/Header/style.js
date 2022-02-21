@@ -20,7 +20,6 @@ export const Navbar = styled.nav`
     margin: 25px 25px 0 0;
     div, nav{
         display: flex;
-        width: 100%;
         align-items: center;
         span{
             font-size: 1.6em;
