@@ -14,6 +14,9 @@ export const Container = styled.section`
     @media(max-width: 375px){
         width: 95%;
     }
+    a:hover{
+        color: #fffffff3;
+    }
 `;
 /* 
 //////////////////////
@@ -49,9 +52,6 @@ export const Navbar = styled.nav`
                 text-decoration: none;
                 color: rgba(255,255,255, .7);
                 transition: all .2s ease-in-out;
-                &:hover{
-                color: #fffffff3;
-                }
             }
         }
     }
