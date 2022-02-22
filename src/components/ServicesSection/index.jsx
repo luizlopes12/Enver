@@ -4,7 +4,7 @@ import {
   Title, 
   Cards
   } from './style'
-import Card from  '../shared/Card'
+import Card from  '../shared/ServicesCard'
 const Services = () => {
   return (
     <Container>
