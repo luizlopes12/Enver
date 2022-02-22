@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-
-
 export const Container = styled.section`
     width: 100%;
     background-color: #1E1E20;
@@ -65,7 +63,10 @@ export const Button = styled.button`
         box-shadow: 0px 0px 24px 0px #5e5eee;
     }
     @media screen and (max-width: 1024px){
-        padding: 15px 30px;
+        padding: 10px 15px;
         font-size: 1.4em;
+    }
+    @media screen and (max-width: 425px){
+        font-size: 1.1em;
     }
 `;
