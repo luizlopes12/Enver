@@ -5,6 +5,7 @@ import Banner from './components/Banner'
 import VideoSection from './components/VideoSection'
 import Services from './components/ServicesSection'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
               <VideoSection/>
               <Services/>
               <Contact/>
+              <Footer/>
             </>
           }/>
         </Routes>
