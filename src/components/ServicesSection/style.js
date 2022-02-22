@@ -5,7 +5,7 @@ export const Container = styled.section`
     padding: 50px 0 60px;
     width: 85%;
     color: #FFF;
-    margin: auto;
+    margin: 20px auto;
     background-image: 
     url(${require('../../img/play-icon.svg').default}), 
     url(${require('../../img/add-icon.svg').default}),
