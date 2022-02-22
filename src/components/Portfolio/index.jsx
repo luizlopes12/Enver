@@ -9,7 +9,11 @@ const Portfolio = () => {
   return (
     <Container>
         <Title>Our Awesome Portofolio</Title>
-        <Cards></Cards>
+        <Cards>
+            <Card/>
+            <Card/>
+            <Card/>
+        </Cards>
     </Container>
   )
 }
