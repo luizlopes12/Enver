@@ -1,5 +1,5 @@
 ## Landing page Enver
- url no GitHub pages: https://luizlopes12.github.io/Enver/
+ url no GitHub pages: https://goenver.vercel.app
 ## Gifs
 ![Mobile](./mobile.gif)
 ![Desktop](./desk.gif)
